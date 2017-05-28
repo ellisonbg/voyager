@@ -24,6 +24,7 @@ type Container = string | HTMLElement;
  * The Voyager class encapsulates the voyager application and allows for easy
  * instantiation and interaction from non-react projects.
  */
+export
 class Voyager {
   private container: HTMLElement;
   private config: VoyagerConfig;
